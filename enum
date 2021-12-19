@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+
+enum Calender {
+	JAN,FEB,MARCH,APRIL,MAY,JUNE,JULY,AUG,SEPT,OCT,NOV,DEC
+};
+
+int main() {
+
+	enum Calender;
+
+	int month = 3;
+
+	switch (month) {
+
+		case 0:
+			puts("JANUARY");
+		break;
+
+		case 1:
+			puts("FEB");
+		break;
+
+		case 2:
+			puts("MARCH");
+		break;
+
+		case 3:
+			puts("APRIL");
+		break;
+
+		case 4:
+			puts("MAY");
+		break;
+
+		case 5:
+			puts("JUNE");
+		break;
+		case 6:
+			puts("JULY");
+		break;
+
+		case 7:
+			puts("AUG");
+		break;
+
+		case 8:
+			puts("SEPT");
+		break;
+		case 9:
+			puts("OCT");
+		break;
+
+		case 10:
+			puts("NOV");
+		break;
+
+		case 11:
+			puts("DEC");
+		break;
+
+		default:
+			puts("No color found");
+	}
+
+	return 0;
+}
